@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="bookstore.css"/>
+</head>
+<body>
+    <!--Name of the website-->
+    <header>
+        <h1>Online Bookstore</h1>
+    </header>
+    <!--In "main" section you can choose genre of the book-->
+
+    <main class="filter">
+        <h2>Filter by Genre</h2>
+        <!--using the select form-->
+                <select name="books" id="genre">
+                    <option value="allgenres">All Genres</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="nonfiction">Non-Fiction</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="comptech">Computer&Technology</option>
+                </select>
+    </main>
+  <!--Section is a container for divs-->      
+<section class="books">
+
+<!--giving div cantainer for each button,book,image and information about books-->
+
+        <div class="book">
+                 <div class="imgsrc">
+                      <img src="./python3.jpg" alt="Python crash course" />
+                 </div>
+            <div class="info">
+                    <h3>Python Crash Course, 3rd Edition: A Hands-On, Project-Based
+                     Introduction to Programming</h3>
+                    <p>Author: Eric Matthes</p>
+                    <p>Genre: Computer & Technology</p>
+                    <p>Price:<span>$30.99</span></p>
+            </div>
+       <button>Add to Cart</button>
+        </div>
+        
+        <div class="book">
+            <div class="imgsrc">
+            <img src="./statistics.jpg" alt="Practical Statistics" />
+            </div>
+            <div class="info">
+                <h3>Practical Statistics for Data Scientists: 50+ Essential Concepts
+                Using R and Python</h3>
+                <p>Author: Peter Bruce, Andrew Bruce, Peter Gedeck</p>
+                <p>Genre: Computer & Technology</p>
+                <p>Price:<span>$42.99</span></p>
+                </div>
+            <button>Add to Cart</button>
+        </div>
+        
+
+        <div class="book">
+            <div class="imgsrc">
+            <img src="./comingwave.jpg" alt="The coming wave"/>
+            </div>
+            <div class="info"> <h3>The Coming Wave: Technology, Power, and the Twenty-first Century's
+                Greatest Dilemma</h3>
+            <p>Author: Mustafa Suleyman (Author), Michael Bhaskar</p>
+            <p>Genre: Computer & Technology</p>
+            <p>Price:<span>$21.99</span></p>
+        </div>
+            <button>Add to Cart</button>
+        </div>
+       
+
+       
+        <div class="book">
+            <div class="imgsrc">
+            <img src="./excel.jpg" alt="Excel from beginner to expert"/>
+            </div>
+            <div class="info">
+            <h3>EXCEL 2023: From Beginner to Expert | The Illustrative Guide to
+                Master All The Essential Functions</h3>
+            <p>Author: Richard Wilson</p>
+            <p>Genre: Computer & Technology</p>
+            <p>Price:<span>$14.99</span></p>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+        
+       
+        <div class="book">
+            <div class="imgsrc">
+            <img src="./pythondata.jpg" alt="Python for data analysis"/>
+            </div>
+            <div class="info">
+            <h3>Python for Data Analysis: Data Wrangling with pandas, NumPy, and
+                Jupyter</h3>
+            <p>Author: Wes McKinney</p>
+            <p>Genre: Computer & Technology</p>
+            <p>Price:<span>$33.99</span></p>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+       
+
+      
+        <div class="book">
+            <div class="imgsrc">
+            <img src="./algotrithm.jpg" alt="Introduction to Algorithms"/>
+            </div>
+            <div class="info">
+            <h3>Introduction to Algorithms, fourth edition</h3>
+            <p>Author: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
+                Clifford Stein</p>
+            <p>Genre: Computer & Technology</p>
+            <p>Price:<span>$112.99</span></p>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+        
+    </section>
+
+    <!--footer is a copyrights section-->
+    <footer>
+        &copy; 2023 Online Bookstore</footer>
+    
+    
+</body>
+</html>
